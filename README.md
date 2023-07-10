@@ -1,5 +1,84 @@
 # Модуль 3 Занятие 6. Деструктуризация и rest/spread
 
+## Задачи на обьекты
+
+- Задача о создании объекта: Create an object called "car" with the following
+  properties: "brand", "model", "year", and "color". Assign values to these
+  properties and then display them on the screen.
+
+- Задача о доступе к свойствам объекта: You have an object called "student" with
+  properties "name", "age", and "major". Display a message on the screen using
+  the values of the object's properties.
+
+```js
+const student = {
+  name: 'John',
+  age: 20,
+  major: 'Computer Science',
+};
+```
+
+- Задача о добавлении и удалении свойств: You have an object called "user" with
+  one property called "name". Add properties "age" and "address" with
+  corresponding values. Then delete the "address" property and display the
+  object on the screen.
+
+```js
+const user = {
+  name: 'Anna',
+};
+```
+
+- Задача о цикле по свойствам объекта: You have an object called "calendar" with
+  months as keys and the number of days in each month as values. Use a loop to
+  display all the months and their number of days on the screen.
+
+```js
+const calendar = {
+  January: 31,
+  February: 28,
+  March: 31,
+  April: 30,
+  May: 31,
+  June: 30,
+};
+```
+
+- Задача о вложенных объектах: You have an object called "computer" with various
+  characteristics such as "processor", "RAM", and "hard drive". Each of these
+  properties has additional sub-properties such as "model", "speed", and "size".
+  Display the values of these properties on the screen.
+
+```js
+const computer = {
+  processor: {
+    model: 'Intel Core i7',
+    speed: '3.5 GHz',
+  },
+  RAM: {
+    model: 'Corsair Vengeance',
+    size: '16 GB',
+  },
+  'hard drive': {
+    model: 'Samsung 860 EVO',
+    size: '1 TB',
+  },
+};
+```
+
+- Задача о методах объекта: You have an object called "circle" with a property
+  called "radius". Add methods called "calculateArea" and
+  "calculateCircumference" to the "circle" object. Invoke these methods and
+  display the results on the screen.
+
+```js
+const circle = {
+  radius: 5,
+};
+```
+
+---
+
 ## Example 1 - Деструктуризация
 
 Перепиши функцию так, чтобы она принимала один объект параметров, вместо набора
